@@ -10,7 +10,7 @@ class Prp < Formula
 
   on_macos do
     url "https://github.com/Liopun/prp/releases/download/v0.10/prp_0.10_Darwin_x86_64.tar.gz"
-    sha256 "3bcfaaeba56ba3090a63f8d1dea91f6465ef7b8b1ec6740f9f6ebe39a2404f96"
+    sha256 "16f1aa14660825c9a0098c46db00ba165d02db0066f7fe3a98157c8bbd37ffc8"
 
     def install
       bin.install "prp"
