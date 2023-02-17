@@ -5,11 +5,11 @@
 class Prp < Formula
   desc "A convenient solution for backing up and restoring your installed packages."
   homepage "https://prp.io/"
-  version "0.11"
+  version "0.12"
 
   on_macos do
-    url "https://github.com/Liopun/prp/releases/download/v0.11/prp_0.11_Darwin_x86_64.tar.gz"
-    sha256 "a1bc8b5fb04510c47d883c2de1f526364b7376c961afa94bbf6628efeacdea6a"
+    url "https://github.com/Liopun/prp/releases/download/v0.12/prp_0.12_Darwin_x86_64.tar.gz"
+    sha256 "e7715062bef36d2e33e32097f022b4aef33a4fb3a1283762e05a9addc612e295"
 
     def install
       bin.install "prp"
@@ -28,8 +28,8 @@ class Prp < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Liopun/prp/releases/download/v0.11/prp_0.11_Linux_x86_64.tar.gz"
-      sha256 "dae3fe234dd3cedb70ac644ff5a6d3f5699901e4a14bb5b18c99ae7ed6033ac6"
+      url "https://github.com/Liopun/prp/releases/download/v0.12/prp_0.12_Linux_x86_64.tar.gz"
+      sha256 "56c65426f96e2ba7c028adea6778781f2fd608aa8a92abe8f8e47e2adf9fda90"
 
       def install
         bin.install "prp"
